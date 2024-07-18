@@ -457,7 +457,46 @@
 
     <div class="backdrop" data-modal>
       <div class="modal">
-<button type="button" class="modal-close-btn" data-modal-close>close</button>
+<button type="button" class="modal-close-btn" data-modal-close>
+  <svg class="close" width="8" height="8">
+    <use href="./images/icons.svg#icon-close"></use>
+  </svg>
+</button>
+<p class="title">Leave your contacts and we will call you back</p>
+<form>
+  <div class="modal-field">
+    <label for="user-name">Name</label>
+    <div class="modal-field-wrap">
+  <input type="text" class="modal-input" name="user-name" id="user-name">
+  <svg class="modal-icon" width="18" height="18">
+    <use href="./images/icons.svg#icon-person"></use>
+  </svg>
+</div>
+</div>
+<div class="modal-field">
+  <label for="user-tel">Phone</label>
+  <div class="modal-field-wrap">
+  <input type="tel" class="modal-input" name="user-tel" id="user-tel">
+  <svg class="modal-icon" width="18" height="24">
+    <use href="./images/icons.svg#icon-phone"></use>
+  </svg>
+</div>
+</div>
+<div class="modal-field">
+  <label for="user-email">Email</label>
+  <div class="modal-field-wrap">
+  <input type="email" class="modal-input" name="user-email" id="user-email">
+  <svg class="modal-icon" width="18" height="24">
+    <use href="./images/icons.svg#icon-email"></use>
+  </svg>
+</div>
+</div>
+<div class="modal-field">
+  <label for="user-text">Comment</label>
+  <textarea name="user-text" id="user-text" class="modal-comment" placeholder="Text input"></textarea>
+</div>
+  <button type="submit">Send</button>
+</form>
       </div>
     </div>
 <script src="./js/modal.js"></script>
