@@ -771,7 +771,7 @@ margin-bottom: 8px;
 }
 
 .modal-check-text span {
-    display: block;
+    display: inline-flex;
     width: 16px;
     height: 16px;
     border-radius: 2px;
@@ -876,4 +876,8 @@ gap: 24px;
                 display: block;
                 margin-bottom: 24px;
                 
+}
+
+.privacy {
+    margin-bottom: 24px;
 }
