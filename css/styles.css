@@ -936,3 +936,7 @@ margin-bottom: 8px;
 .telegram {
     margin-left: 16px;
 }
+
+.class {
+    display: inline-flex;
+}
