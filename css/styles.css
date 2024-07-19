@@ -787,6 +787,7 @@ margin-bottom: 8px;
     background-color: #404bbf;
     fill: #f4f4fd;
     border-radius: 2px;
+    display: inline-flex;
 }
 
 .text-label {
