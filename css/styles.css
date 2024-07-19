@@ -769,6 +769,9 @@ margin-bottom: 8px;
 
 }
 
+.icon-span {
+    display: inline-flex;
+}
 .modal-check-text span {
     display: inline-flex;
     width: 16px;
